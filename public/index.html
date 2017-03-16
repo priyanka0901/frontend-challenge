@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <title>Twitter trends test</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="cleartype" content="on" />
-        <meta name="apple-mobile-web-app-capable" content="no">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" media="all" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-	</head>
-<body>
-<div class="container">
-    <div class="sidebar">
-        <p class="heading">Select countries</p>
-        <div class="countries">
-            <p class="select-menu">select country</p>
-            <select type="text" name="country" class="list" id="list1">
-            <option disabled selected value> -- select an option -- </option>
-            </select>
-              
-            <p class="select-menu">select country</p>
-             <select type="text" name="country" class="list" id="list2">
-             <option disabled selected value> -- select an option -- </option>
-            </select>
-            
-        </div>
-        <p class="heading">common Trends </p>
-        <div class="trends">
-        </div>
-    </div>
-    <div class="home">
-    <p class="home-heading">trends weight contribution </p>
-    <div class="result-graph">
-        <canvas id="myChart" width="400px" height="400px"></canvas>
-    </div>
-    </div>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
-<script type="text/javascript" src="client.js"></script>
+<head>
+    <title>Twitter trends test</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <p class="heading">Select countries</p>
+            <div class="countries">
+                <p class="select-menu">select country</p>
+                <select type="text" name="country" class="list" id="list1">
+                    <option disabled selected value> -- select an option -- </option>
+                </select>
+                <p class="select-menu">select country</p>
+                <select type="text" name="country" class="list" id="list2">
+                    <option disabled selected value> -- select an option -- </option>
+                </select>
+            </div>
+            <p class="heading">common Trends </p>
+            <div class="trends">
+            </div>
+        </div>
+        <div class="home">
+            <p class="home-heading">trends weight contribution </p>
+            <div class="result-graph">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+    <script type="text/javascript" src="client.js"></script>
 </body>
+
 </html>
